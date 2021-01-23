@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oza Photograpers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://www.google.com/">
+    <link rel="preconnect" href="https://www.w3schools.com/">
+    <link rel="shortcut icon" href="https://www.bing.com/th?id=OIP.Nr7GNTwpvTo0xReSmDHlHgHaHa&w=204&h=204&c=8&rs=1&qlt=90&pid=3.1&rm=2" type="image/x-icon">
+
+
+   
+</head>
+<body onload="myFunction()">
+    <div id="loading"></div>
+    <nav class="navbar navbar-expand-md fixed-top d-flex>
+        <a class="navbar-brand text-white"  href="#">Ojha Photograpers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#class1">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#class2">Contact us</a>
+            </li>    
+          </ul>
+        </div>  
+      </nav>
+    <div class="hello">
+        <div class="logo">
+            <br><br><br><br><br>
+            <h1 style="color: white; text-align: center; border: 3px solid white; widht:50%; ">Oza <br><p>Photograpers</p></h1>
+
+        </div>
+     
+        
+    </div>
+
+    <div class="container">
+        <div id="class1">
+            <img src="https://www.w3schools.com/w3images/ocean.jpg" alt="" width="400px" >
+            <img src="https://www.w3schools.com/w3images/ocean2.jpg" width="450px" alt="">
+            <img src="img8.jpg" alt="" width="500px">
+            <img src="img9.jpg" alt="" width="350px">
+            <img src="img11.jpg" alt="" width="450px">
+            <img src="https://www.w3schools.com/w3images/mountains2.jpg" width="450px" alt="">
+
+
+            <br>
+        </div>
+
+    </div>
+    <div id="class2">
+        <div class="row">
+            <div class="col-lg-6">
+            <h2 class="text-left">Want contact us :) you contact us from here</h2>
+ 
+                <form>
+                  <div class="form-group">
+                    <input type="name" class="form-control" placeholder="name" required>
+ 
+                   </div>
+                  <div class="form-group">
+                    
+                     <input type="text"  class="form-control" id="" placeholder="email" required>
+                   </div>
+                   <div class="form-group"> 
+ 
+                   <input type="text" class="form-control" required placeholder="Message">
+                   </div>
+                   <button type="submit" class="btn btn-primary">Send Message</button>
+                 </form>
+ 
+
+
+
+
+
+    </div>
+    
+    <script>
+	         $(document).ready(function(){
+			 	$('div#loading').removeAttr('id');
+	     });
+		var preloader = document.getElementById("loading");
+		window.addEventListener('load', function(){
+		 	preloader.style.display = 'none';
+			})
+
+		function myFunction(){
+			preloader.style.display = 'none';
+		};
+	</script>
+</body>
+</html>

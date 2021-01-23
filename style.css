@@ -1,0 +1,57 @@
+*{
+
+    margin:0;
+    padding: 0;
+}
+
+#loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff
+	url('https://raw.githubusercontent.com/Dhananjay-built/shreerammedicalandgeneralstore.github.com/main/Bars-1s-200px.gif')
+	 no-repeat center center;	
+    z-index: 99999;
+}
+
+.hello{
+    height: 100vh;
+    background-image: url('https://www.w3schools.com/w3images/photographer.jpg');
+    background-size:100% 85vh;
+    background-repeat:no-repeat;
+
+}
+nav{
+    background-color: orange;
+    color:white;
+    
+    width: 100%;
+    height: 10vh;
+
+}
+
+img:hover{
+   border: 2px dashed orange;
+}
+
+img{
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color:#000000;
+}
+.logo{
+
+    
+   height:100%;
+   color:white;
+   
+}
